@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bf0267c9-6ff5-4ce7-bb2d-3f3f31db1718"
+      }
+    },
+    "owner": "leeseungchan"
   }
 }
