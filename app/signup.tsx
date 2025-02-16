@@ -23,7 +23,7 @@ export default function SignUp() {
     try {
       setLoading(true);
 
-      const response = await fetch("http://43.203.255.109/api/user", {
+      const response = await fetch("https://flowfit.kro.kr/api/user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
