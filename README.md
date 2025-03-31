@@ -1,3 +1,25 @@
+# Commit Convention
+<접두사>(#<이슈번호>): <제목>
+> ex) feat(#1): UI 개발
+
+### 접두사
+| 타입 | 설명 |
+|:--:|--|
+| feat     | 기능, 사용자 경험에 변경이 있는 경우 (모든 커밋은 기본적으로 feat)|
+| refactor | 기능, 사용자 경험에 변경 없이 코드 구조를 개선한 경우 (패키지 변경, 변수명 변경, 가독성 개선 등) |
+| fix      | 이슈 또는 버그 해결 |
+| style    | 들여쓰기, 공백 등 코드 스타일 또는 여백/글자 크기 등 UI 요소의 변경 |
+| docs     | 주석, README.md 등 문서의 변경 |
+| chore    | 라이브러리 업데이트 및 기타 변경사항 |
+
+</br>
+
+# PR Title
+<접두사>/#<이슈번호>: <제목>
+> ex) Feature/#1: UI 개발
+
+</br>
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -35,16 +57,3 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
